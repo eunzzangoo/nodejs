@@ -6,9 +6,10 @@
 
 Node.js, Express, MongoDB,  Bootstrap을 사용하여 기본 RESTful CRUD 구조를 만들것입니다. 
 
-그리곤 Postman을 사용하여 테스트를 해볼것입니다.    
+그리곤 Postman을 사용하여 테스트를 해볼것입니다.
 
 
+#
 ## 1. 설치하기
 
 ```shell
