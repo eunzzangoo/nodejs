@@ -10,7 +10,7 @@ Node.js, Express, MongoDB,  Bootstrap을 사용하여 기본 RESTful CRUD 구조
 
 
 
-1. 설치하기
+#### 1. 설치하기
 
 ```shell
 npm install express-generator -g #express 설치
@@ -28,7 +28,7 @@ npm install mongoose body-parser method-override  --save #mongoose, body-parser,
 
 
 
-2. bootstrap 설치
+#### 2. bootstrap 설치
 
 Bootstrap은 아래와같이 로컬환경에 파일을 두는 방법이있고 CDN을 이용하는 방법이있다. 트래픽을 절약하기 위해 CDN을 사용하겠습니다.
 
@@ -83,7 +83,7 @@ app.use('/css', express.static(path.join(__dirname, '/node_modules/bootstrap/dis
 
 
 
-3. view layout 나눠주기
+#### 3. view layout 나눠주기
 
 bootstrap에서 제공하는 cover theme를 적용해 보았다. 또한 뷰 에서 재사용의 용이성을 높이기 위해 Partials 폴더를 만들어서 head.ejs, footer.ejs, script.ejs 부분을 나눠주었다
 
@@ -187,9 +187,7 @@ bootstrap에서 제공하는 cover theme를 적용해 보았다. 또한 뷰 에�
 
 
 
-
-
-3. Mongoldb 연동
+#### 4. Mongoldb 연동
 
 App.js에 mongoose 모듈을 가져오고 셋팅합니다.
 
@@ -210,3 +208,28 @@ mongoose.connect('mongodb://localhost/test_db', {
 
 
 오늘은 여기까지...
+
+
+
+
+
+4. db를 활용하여 간단한 메모?
+
+
+
+
+
+db.createCollection을 통해 
+
+```js
+<!-- mongoose 모듈 가져오기 -->
+  
+<!-- db 셋팅 -->
+
+```
+
+
+
+## 참고
+
+https://www.callicoder.com/node-js-express-mongodb-restful-crud-api-tutorial/
