@@ -6,7 +6,7 @@
 
 Node.js, Express, MongoDB,  Bootstrap을 사용하여 기본 RESTful CRUD 구조를 만들것입니다. 
 
-그리곤 Postman을 사용하여 테스트를 해볼것입니다.  
+그리곤 Postman을 사용하여 테스트를 해볼것입니다.    
 
 
 ## 1. 설치하기
@@ -23,7 +23,7 @@ npm install mongoose body-parser method-override  --save #mongoose, body-parser,
 참고로 --save옵션은 npm version 5이상 default값이라 안써줘도 된다고 합니다.
 
 * Body-paser는 post로 요청된 body를 쉽게 추출하기 위해 설치한다.
-* Metod-override 는 REST API를 사용하기 위해 설치합니다. 기본적으로 POST만 제공 된다. PUT, DELETE 추가하기 위해!  
+* Metod-override 는 REST API를 사용하기 위해 설치합니다. 기본적으로 POST만 제공 된다. PUT, DELETE 추가하기 위해!    
 
 
 ## 2. bootstrap 설치
@@ -77,7 +77,7 @@ app.use('/css', express.static(path.join(__dirname, '/node_modules/bootstrap/dis
 </html>
 ```
 
-+ 참고로 유용하게 [무료테마 bootswatch](https://bootswatch.com/_) 제공되는 사이트이다. 다운받아서 css파일에 덮어주거나 CDN을 사용한다면 herf경로를 파일 경로로 바꿔주면 된다.  
++ 참고로 유용하게 [무료테마 bootswatch](https://bootswatch.com/_) 제공되는 사이트이다. 다운받아서 css파일에 덮어주거나 CDN을 사용한다면 herf경로를 파일 경로로 바꿔주면 된다.    
 
 
 ## 3. view layout 나눠주기
@@ -180,7 +180,7 @@ bootstrap에서 제공하는 cover theme를 적용해 보았다. 또한 뷰 에�
         ├── footer.ejs
         ├── head.ejs
         └── script.ejs
-```  
+```    
 
 
 ## 4. Mongoldb 연동
