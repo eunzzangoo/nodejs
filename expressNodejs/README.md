@@ -209,27 +209,3 @@ mongoose.connect('mongodb://localhost/test_db', {
 
 오늘은 여기까지...
 
-
-
-
-
-4. db를 활용하여 간단한 메모?
-
-
-
-
-
-db.createCollection을 통해 
-
-```js
-<!-- mongoose 모듈 가져오기 -->
-  
-<!-- db 셋팅 -->
-
-```
-
-
-
-## 참고
-
-https://www.callicoder.com/node-js-express-mongodb-restful-crud-api-tutorial/
